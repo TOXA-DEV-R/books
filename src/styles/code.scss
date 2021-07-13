@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#root {
+  border-radius: 21px 21px 0 0;
+  background-color: #191919;
+}
+
+:root {
+  --Helvetica-Thin: "Helvetica-Thin";
+}
+
+$Helvetica-Thin: var(--Helvetica-Thin);
+
+header {
+  .navbar {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    &__menu {
+      display: flex;
+      list-style: none;
+      &-item {
+        font-size: 16px;
+        line-height: 23px;
+        font-family: $Helvetica-Thin;
+        padding: 0 21.5px;
+      }
+      &-link{
+        color: white;
+      }
+    }
+
+  }
+}
