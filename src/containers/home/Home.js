@@ -1,10 +1,15 @@
 import React from "react";
 import Header from "../../components/header/Header";
+import Searching from "../../components/search/Searching";
+import Tabs from "../../components/tabs/Tabs";
+
 const Home = () => {
   return (
-    <React.Fragment>
+    <div id="basic">
       <Header />
-    </React.Fragment>
+      <Searching />
+      <Tabs />
+    </div>
   );
 };
 
